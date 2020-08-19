@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-div {
+  background-color: #282c14;
+
+
+}
+
+.carusel1{
+
+width:500px;
+height:500px;
+}
+.carusel{
+
+width:500px;
+height:500px;
+padding: 200px;
+}
+
+.BarraSuperior{
+background: black;
+ display: flex;
+
+}
+.Home{
+background-color: black;
+
+
+
+
+}
+
+
+
+
+.login{
+  background-color: grey;
+}
+
+
+
+.cardEstilo{
+   height:25rem;
+max-width:25rem;
+
+
+
+}
+
+.imagen{
+
+display: flex;
+  justify-content: center;
+
+
+}
+.App-Div{
+    height:100 px;
+  display: flex;
+   padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
